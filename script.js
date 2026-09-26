@@ -69,8 +69,8 @@ const projectsData = [
         isExternal: false
     },
     {
-        imgSrc: "images/beach-timer.png",
-        imgAlt: "受賞作品の関連イメージ",
+        imgSrc: "images/safe-meal-shot.png",
+        imgAlt: "safe-mealのスクリーンショット",
         title: "2026年2月 動くWebアプリコンテスト2026冬 視聴者特別賞受賞",
         description: "受賞作品: safe-meal",
         link: "https://github.com/harua-962/safe-meal",
