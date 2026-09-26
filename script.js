@@ -14,6 +14,14 @@ const historyData = [
     {
         date: "2025年9月",
         event: 'ZEN大学 地域連携プログラム<br>"100年の歴史ある地域の拠点 共同売店をDX化 ～ICT・AI活用で「橋で渡れる沖縄の離島」の課題を探り魅力をアップデート！～"<br>Airレジの動画マニュアルを作成'
+    },
+    {
+        date: "2026年3月～5月",
+        event: "ZEN大学 地域連携プログラム 食と農の関係人口を増やす企画-戦略-立案プログラム"
+    },
+    {
+        date: "2026年 8月",
+        event: "平林金属株式会社 ネパールコーヒーSNS運用 インターン"
     }
    
 ];
@@ -59,6 +67,14 @@ const projectsData = [
         description: "大学の地域連携プログラムで作成した、Airレジの操作動画マニュアルです。機器の操作に不慣れなご高齢の店員さんが、何度も見返すことができるように分かりやすい編集を意識しました。",
         link: "project2.html",
         isExternal: false
+    },
+    {
+        imgSrc: "images/beach-timer.png",
+        imgAlt: "受賞作品の関連イメージ",
+        title: "2026年2月 動くWebアプリコンテスト2026冬 視聴者特別賞受賞",
+        description: "受賞作品: safe-meal",
+        link: "https://github.com/harua-962/safe-meal",
+        isExternal: true
     }
     
 ];
