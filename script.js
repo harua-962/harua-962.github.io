@@ -122,18 +122,23 @@ function renderSkills() {
   const container = document.getElementById('skills-container');
   if (!container) return;
 
-
   skillsData.forEach(skill => {
     const li = document.createElement('li');
     
+    // description が存在し、かつ空文字でない場合のみ表示を作成する
+    const descHTML = skill.description 
+      ? `<span class="skill-item-separator">...</span>
+         <span class="skill-item-desc">${skill.description}</span>`
+      : '';
+
     li.innerHTML = `
         <strong class="skill-item-name">${skill.name}</strong>
-        <span class="skill-item-separator">...</span>
-        <span class="skill-item-desc">${skill.description}</span>
+        ${descHTML}
     `;
     container.appendChild(li);
   });
 }
+
 
 function renderProjects() {
     const container = document.getElementById('project-gallery-container');
