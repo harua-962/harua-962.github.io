@@ -27,6 +27,14 @@ const historyData = [
 ];
 
 const skillsData = [
+    {
+        name: "TOEIC Listening&Reading Test",
+        description: "740点"
+    },
+    {
+        name: "実用英語技能検定",
+        description: "2級"
+    },
     { 
         name: "HTML/CSS", 
         description: "Webアプリのコーディング," 
