@@ -34,6 +34,10 @@ const skillsData = [
         name: "実用英語技能検定 2級",
     },
     { 
+
+        name: "色彩検定 3級"
+    },
+    {
         name: "HTML/CSS", 
         description: "Webアプリのコーディング," 
     },
