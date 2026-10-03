@@ -29,13 +29,16 @@ const historyData = [
 const skillsData = [
     {
         name: "TOEIC Listening&Reading Test 740点",
+        description: "",
     },
     {
         name: "実用英語技能検定 2級",
+        description: "",
     },
     { 
 
-        name: "色彩検定 3級"
+        name: "色彩検定 3級",
+        description: "",
     },
     {
         name: "HTML/CSS", 
